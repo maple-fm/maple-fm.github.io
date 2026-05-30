@@ -1,24 +1,66 @@
 <!DOCTYPE html>
-<html>
-  <head> </head>
-  <body>
-    <h1>Welcome to maple's site</h1>
-    <h2>JobHunt</h2>
-    <ul>
-      <li><a href="jobHunt/privacy.html">Privacy Policy</a></li>
-      <li><a href="jobHunt/Terms.html">Terms and Conditions</a></li>
-    </ul>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="出口楓真のiOSアプリ開発ポートフォリオ。PokerTimer、JobHunt、SkyShaker など複数のアプリをApp Storeで公開中。" />
+  <title>maple's Apps — iOS Developer</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
 
-    <h2>skyShaker</h2>
-    <ul>
-      <li><a href="skyShaker/privacy.html">Privacy Policy</a></li>
-      <!-- <li><a href="skyShaker/Terms.html">Terms and Conditions</a></li> -->
-    </ul>
-    <h2>畳チャレンジ</h2>
-    <ul>
-      <li><a href="tatamiChallenge/privacy.html">Privacy Policy</a></li>
-    <h2>pokerTimer</h2>
-    <ul>
-      <li><a href="pokerTimer/privacy.html">Privacy Policy</a></li>
-  </body>
+    <header>
+      <a href="/" class="logo">maple</a>
+      <nav class="header-nav">
+        <a href="mailto:fuma.deguchi@gmail.com">Contact</a>
+        <a href="https://github.com/maple-fm" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        iOS Developer
+      </div>
+      <h1>
+        日常を便利にする<br />
+        <span class="gradient">アプリを作っています</span>
+      </h1>
+      <p class="hero-desc">
+        ポーカーから就活まで、生活の中の「あったら便利」を形にするiOSアプリを個人開発しています。
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-number">3</div>
+          <div class="stat-label">App Store 公開</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">4</div>
+          <div class="stat-label">リリースアプリ</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">Swift</div>
+          <div class="stat-label">主要言語</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Apps</p>
+      <div id="apps-grid" class="apps-grid"></div>
+    </section>
+
+    <footer>
+      <p>© 2026 出口楓真 (maple)</p>
+      <div class="footer-links">
+        <a href="https://github.com/maple-fm" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:fuma.deguchi@gmail.com">fuma.deguchi@gmail.com</a>
+      </div>
+    </footer>
+
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
 </html>
